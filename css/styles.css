@@ -413,6 +413,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     justify-content: center;
     gap: 10px;
 }
+/*footer join*/
 .join-link{
     display: inline-flex;
     align-items: center;
@@ -458,6 +459,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     height: 120px;
     background-color: #F5F4FA;;
 }
+
+/*Clients*/
 .client-icon{
     fill: currentColor;
     align-items: center;
