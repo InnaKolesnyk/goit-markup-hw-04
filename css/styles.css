@@ -87,13 +87,13 @@ color: var(--accent-color);
  margin-right: 10px;
  justify-content: center;
  align-items: center;
- fill: var(--primary-text-color);
+ fill: currentColor;
 
 }
-.contact-icon:hover,
+/*.contact-icon:hover,
 .contact-icon:focus{
   fill: var(--accent-color);
-}
+}*/
 .header-list,.header-contacts {
  gap: 50px;
  align-items: center;
@@ -115,7 +115,7 @@ color: var(--accent-color);
 .header-link:hover,
 .header-link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus{
 color: var(--accent-color);
 }
 
@@ -234,6 +234,7 @@ background-color:#F5F4FA;
 .team-wrapper{
 padding: 30px 10px;
 text-align: center;
+background-color: #FFFFFF;
 }
 .team-subtitle{
  margin-bottom: 10px;
@@ -281,9 +282,7 @@ text-align: center;
  border-radius: 4px;
  cursor: pointer;
 }
-.filter-btn-current{
- background-color: var(--accent-color);
-}
+
 .filter-btn:hover,
 .filter-btn:focus{
  color: #ffffff;
